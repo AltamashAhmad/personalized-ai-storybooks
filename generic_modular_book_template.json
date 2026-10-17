@@ -1,0 +1,78 @@
+{
+  "template_id": "starlit_bedtime_odyssey",
+  "metadata": {
+    "title_en_template": "{{child_name}} and the Secret of the Starlit Dunes",
+    "title_ar_template": "{{child_name}} وَسِرُّ الكُثْبَانِ المُضِيئَةِ",
+    "category": "bedtime_keepsake",
+    "target_age_group": "2-6 years",
+    "reading_time_minutes": 4,
+    "page_count": 4,
+    "format": "square_8x8_or_8.5x8.5",
+    "dynamic_variables": [
+      {
+        "key": "child_name",
+        "description": "Child's first name",
+        "example_en": "Zayed",
+        "example_ar": "زَايِد"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "scene_title": "The Golden Dunes at Twilight",
+      "image_reference": "watermarked_img_3162168829031803312.jpg",
+      "background_theme": "Peaceful undulating desert sand dunes at dusk with warm lantern light and first evening star",
+      "text_en_template": "Across the quiet golden dunes where gentle breezes blow,\nYoung {{child_name}} watched the twilight sky begin to softly glow.\nA guiding lantern lit the sand with warm and steady light,\nTo lead the way into the realm of peace and starry night.",
+      "text_ar_template": "فَوْقَ كُثْبَانِ الرِّمَالِ الذَّهَبِيَّةِ حَيْثُ يَهْدَأُ المَسَاءُ،\nوَقَفَ {{child_name}} يَرْقُبُ الأُفُقَ حِينَ تَبْدَأُ الأَضْوَاءُ.\nفَانُوسٌ دَافِئٌ يُضِيءُ الدَّرْبَ بِنُورٍ وَاطْمِئْنَانٍ،\nلِيَفْتَحَ بَابَ الرِّحْلَةِ نَحْوَ سِحْرِ الكَوْنِ وَالأَمَانِ.",
+      "layout_overlay_specs": {
+        "text_box_alignment": "top_left",
+        "text_color": "#FFFFFF",
+        "shadow_contrast": "0 2px 4px rgba(0,0,0,0.6)",
+        "character_placement": "bottom_right_foreground"
+      }
+    },
+    {
+      "page_number": 2,
+      "scene_title": "The Enchanted Oasis",
+      "image_reference": "watermarked_img_18125112925109768429.jpg",
+      "background_theme": "Lush oasis date palms, tranquil turquoise spring, and glowing fireflies beneath starry sky",
+      "text_en_template": "Beside the cool and tranquil spring, the date palms whispered low,\nWhile fireflies danced across the dark in golden, playful glow.\n'Step gently here,' the waters sang, 'for every dream is sweet,\nAnd wonder waits at every path where stars and desert meet.'",
+      "text_ar_template": "عِنْدَ مِيَاهِ الوَاحَةِ العَذْبَةِ، هَمَسَتْ أَشْجَارُ النَّخِيلِ،\nوَفَرَاشَاتُ النُّورِ تَرْقُصُ فِي اللَّيْلِ الجَمِيلِ.\nقَالَتِ المِيَاهُ لِـ{{child_name}}: 'نَمْ هَانِئًا فِي كُلِّ حِينٍ،\nفَالسِّحْرُ يَمْلَأُ الدُّنْيَا لِكُلِّ قَلْبٍ أَمِينٍ.'",
+      "layout_overlay_specs": {
+        "text_box_alignment": "bottom_center",
+        "text_color": "#FFFFFF",
+        "shadow_contrast": "0 2px 4px rgba(0,0,0,0.6)",
+        "character_placement": "left_path_midground"
+      }
+    },
+    {
+      "page_number": 3,
+      "scene_title": "Flight Through the Constellations",
+      "image_reference": "watermarked_img_9661907584536672112.jpg",
+      "background_theme": "Dreamy celestial clouds, luminous golden crescent moon, and sparkling starlight constellations",
+      "text_en_template": "Higher than the tallest hill, where silver moonbeams glide,\n{{child_name}} soared among the stars across the heavens wide.\nEach constellation formed a map of courage, truth, and grace,\nA sparkling crown of stardust light above the quiet place.",
+      "text_ar_template": "أَعْلَى مِنَ القِمَمِ حَيْثُ نُورُ الهِلَالِ يَلْمَعُ،\nحَلَّقَ {{child_name}} فِي فَضَاءِ النُّجُومِ حَيْثُ الأَحْلَامُ تَتَجَمَّعُ.\nرَسَمَتِ الأَبْرَاجُ طَرِيقَ الشَّجَاعَةِ وَالطِّيبَةِ وَالسَّلَامِ،\nتَهْدِي خُطَاكَ دَوْمًا نَحْوَ أَجْمَلِ المَرَامِ.",
+      "layout_overlay_specs": {
+        "text_box_alignment": "bottom_left",
+        "text_color": "#FFFFFF",
+        "shadow_contrast": "0 2px 4px rgba(0,0,0,0.7)",
+        "character_placement": "center_clouds"
+      }
+    },
+    {
+      "page_number": 4,
+      "scene_title": "The Cozy Bedtime Sanctuary",
+      "image_reference": "watermarked_img_10542047971677152334.jpg",
+      "background_theme": "Warm arched bedroom window, soft billowing curtains, glowing lamp, and peaceful moon outside",
+      "text_en_template": "Now tucked inside a cozy bed beneath a gentle beam,\n{{child_name}} closed their sleepy eyes to catch a golden dream.\nFor through the night the desert rests beneath the moon above,\nAnd wrapped inside each quiet page is endless warmth and love.",
+      "text_ar_template": "وَفِي السَّرِيرِ الدَّافِئِ تَحْتَ سُكُونِ اللَّيْلِ الهَادِئِ،\nأَغْمَضَ {{child_name}} عَيْنَيْهِ فِي حِضْنِ الأَمَانِ البَادِي.\nفَاللَّيْلُ يَهْمِسُ بِلُطْفٍ: 'نَمْ يَا حَبِيبِي فِي سَلَامٍ'،\nفَأَنْتَ نُورُ دَارِنَا وَأَغْلَى مَا فِي الأَيَّامِ.",
+      "layout_overlay_specs": {
+        "text_box_alignment": "top_center",
+        "text_color": "#4A3525",
+        "shadow_contrast": "none",
+        "character_placement": "bed_midground"
+      }
+    }
+  ]
+}

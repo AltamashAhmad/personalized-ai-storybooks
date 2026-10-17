@@ -1,0 +1,16 @@
+{
+  "name": "personalized-ai-storybooks",
+  "version": "1.0.0",
+  "description": "> **Vision:** To build the world's most advanced, emotionally resonant, and culturally localized personalized storytelling platform for children — starting as the #1 brand in the UAE/GCC and scaling globally into a multi-million-dollar publishing enterprise.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix web run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

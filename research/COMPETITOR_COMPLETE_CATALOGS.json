@@ -1,0 +1,971 @@
+{
+  "metadata": {
+    "title": "Master Competitor Catalog Database: Wonderbly & Hooray Heroes",
+    "compiled_date": "September 2026",
+    "total_books_cataloged": 75,
+    "providers": [
+      "Wonderbly",
+      "Hooray Heroes"
+    ]
+  },
+  "wonderbly_catalog": [
+    {
+      "id": "wb-01",
+      "title": "Bedtime For You",
+      "slug": "bedtime-for-name",
+      "category": "Kids (0-3 Years)",
+      "subcategory": "Bedtime & Nursery",
+      "target_age": "Ages 0–3",
+      "characters_supported": "1 Child",
+      "premise": "Gentle, lyrical bedtime tale leading the child through the Land of Nod, closing the eyelids of nocturnal animals along the way.",
+      "page_count": 26,
+      "dimensions": "Square: 230 × 230 mm (9\" × 9\")",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child name, avatar appearance (skin tone, hair color), custom dedication",
+      "author_artist": "David Cadji-Newby / Cynthia Cliff",
+      "url": "https://www.wonderbly.com/personalized-products/bedtime-for-you-book"
+    },
+    {
+      "id": "wb-02",
+      "title": "When You Were Born",
+      "slug": "when-you-were-born",
+      "category": "Kids (0-3 Years)",
+      "subcategory": "Keepsake & New Baby",
+      "target_age": "Ages 0–3",
+      "characters_supported": "1 Child",
+      "premise": "Poetic celebration of the child's entry into the world, integrating birth date, astrological constellations, and seasonal magic.",
+      "page_count": 32,
+      "dimensions": "Square: 230 × 230 mm (9\" × 9\")",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover",
+        "Layflat Keepsake ($59.99)"
+      ],
+      "personalization_depth": "Child name, birth date, time of birth, birth city, avatar, dedication",
+      "author_artist": "David Cadji-Newby / Amy Blay",
+      "url": "https://www.wonderbly.com/personalized-products/when-you-were-born-book"
+    },
+    {
+      "id": "wb-03",
+      "title": "Welcome to the World",
+      "slug": "welcome-to-the-world",
+      "category": "Kids (0-3 Years)",
+      "subcategory": "New Baby",
+      "target_age": "Ages 0–2",
+      "characters_supported": "1 Child",
+      "premise": "Gentle animals welcome the brand new baby to planet earth, offering blessings and wishes of bravery, wonder, and joy.",
+      "page_count": 34,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover",
+        "Cushioned Board Book ($44.99)"
+      ],
+      "personalization_depth": "Child name, skin tone, birth date, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/welcome-to-the-world-book"
+    },
+    {
+      "id": "wb-04",
+      "title": "The Little Boy / Girl Who Lost Their Name",
+      "slug": "lost-my-name-v2",
+      "category": "Kids (3-6 Years)",
+      "subcategory": "Adventure & Alphabet",
+      "target_age": "Ages 0–8",
+      "characters_supported": "1 Child",
+      "premise": "The global #1 bestseller. Child wakes up with their name missing from the bedroom door and travels across a fantasy landscape meeting animals that spell their name.",
+      "page_count": 32,
+      "dimensions": "Landscape: 312 × 225 mm (12.3\" × 8.8\")",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover",
+        "Layflat Deluxe ($59.99)"
+      ],
+      "personalization_depth": "Name letters dynamically construct entire narrative sequence, 6 avatar presets, dedication",
+      "author_artist": "David Cadji-Newby / Pedro Serapicos",
+      "url": "https://www.wonderbly.com/pages/the-little-boy-who-lost-his-name"
+    },
+    {
+      "id": "wb-05",
+      "title": "I'm a Name-O-Saurus",
+      "slug": "dinosaur-book",
+      "category": "Kids (3-6 Years)",
+      "subcategory": "Dinosaurs & Fantasy",
+      "target_age": "Ages 2–5",
+      "characters_supported": "1 Child",
+      "premise": "The child's name is transformed into their very own dinosaur species roaring across prehistoric volcanic plains.",
+      "page_count": 34,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child name transformed to Latin dinosaur genus, avatar, dedication",
+      "author_artist": "David Cadji-Newby / Tom Bonson",
+      "url": "https://www.wonderbly.com/personalized-products/dinosaur-book"
+    },
+    {
+      "id": "wb-06",
+      "title": "Your Treasury of Nursery Rhymes",
+      "slug": "nursery-rhymes-book",
+      "category": "Kids (0-3 Years)",
+      "subcategory": "Nursery Rhymes",
+      "target_age": "Ages 0–4",
+      "characters_supported": "1 Child",
+      "premise": "Classic nursery rhymes (Humpty Dumpty, Twinkle Twinkle, Hey Diddle Diddle) reimagined with the child illustrated directly into every nursery rhyme.",
+      "page_count": 34,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child name, avatar embedded across 15 classic rhyme scenes, dedication",
+      "author_artist": "Classic Nursery Rhymes / Wonderbly Studio",
+      "url": "https://www.wonderbly.com/personalized-products/nursery-rhymes-book"
+    },
+    {
+      "id": "wb-07",
+      "title": "Where Are You? (Volume 1)",
+      "slug": "where-are-you",
+      "category": "Kids (6+ Years)",
+      "subcategory": "Search & Find Multiverse",
+      "target_age": "Ages 3–10",
+      "characters_supported": "1 Child",
+      "premise": "High-energy Where's Waldo-style multiverse search book. The child travels across 6 alternate universes and must spot themselves in ultra-dense panoramic crowds.",
+      "page_count": 36,
+      "dimensions": "Portrait: 210 × 280 mm (8.3\" × 11\")",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover",
+        "Super-Sized Deluxe ($54.99)"
+      ],
+      "personalization_depth": "Child avatar (9 skin tones, 12 hairstyles, glasses), surname, dedication",
+      "author_artist": "David Cadji-Newby / Marija Tiurina",
+      "url": "https://www.wonderbly.com/personalized-products/where-are-you-book"
+    },
+    {
+      "id": "wb-08",
+      "title": "Where Are You? The Journey Through Time (Volume 2)",
+      "slug": "where-are-you-journey-through-time",
+      "category": "Kids (6+ Years)",
+      "subcategory": "Search & Find History",
+      "target_age": "Ages 4–10",
+      "characters_supported": "1 Child",
+      "premise": "Sequel to Where Are You. The child is lost across historical eras (Ancient Egypt, Wild West, Jurassic, Roaring Twenties) searching for themselves.",
+      "page_count": 36,
+      "dimensions": "Portrait: 210 × 280 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child avatar, historical disguises, dedication",
+      "author_artist": "David Cadji-Newby / Marija Tiurina",
+      "url": "https://www.wonderbly.com/personalized-products/where-are-you-journey-through-time-book"
+    },
+    {
+      "id": "wb-09",
+      "title": "The Fantastic Road Trip",
+      "slug": "fantastic-road-trip",
+      "category": "Kids (6+ Years)",
+      "subcategory": "Travel & Adventure",
+      "target_age": "Ages 3–8",
+      "characters_supported": "1 to 3 Children (Siblings)",
+      "premise": "Siblings pack their bags for an enchanted cross-country road trip over biscuit bridges, cloud mountains, and bubblegum rivers.",
+      "page_count": 34,
+      "dimensions": "Landscape: 312 × 225 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Up to 3 sibling avatars and names, chosen route, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/fantastic-road-trip-book"
+    },
+    {
+      "id": "wb-10",
+      "title": "You Can Do Great Things",
+      "slug": "you-can-do-great-things",
+      "category": "Kids (6+ Years)",
+      "subcategory": "Empowerment & Confidence",
+      "target_age": "Ages 5–10",
+      "characters_supported": "1 Child",
+      "premise": "Inspiring growth-mindset book teaching emotional resilience, self-worth, and perseverance through life's hurdles.",
+      "page_count": 32,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child name, avatar, customized strength affirmations, dedication",
+      "author_artist": "Wonderbly Creative Team",
+      "url": "https://www.wonderbly.com/personalized-products/you-can-do-great-things-book"
+    },
+    {
+      "id": "wb-11",
+      "title": "I Love You This Much",
+      "slug": "i-love-you",
+      "category": "Family & Siblings",
+      "subcategory": "Unconditional Love",
+      "target_age": "Ages 0–4",
+      "characters_supported": "1 to 4 Children",
+      "premise": "Shows how big a parent/grandparent's love is by comparing it to oceans, redwoods, and galaxies. Supports up to 4 siblings.",
+      "page_count": 34,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "1 to 4 child names and avatars, adult gifter name ('Mummy', 'Daddy', 'Granny'), dedication",
+      "author_artist": "David Cadji-Newby / Daniel Gray-Barnett",
+      "url": "https://www.wonderbly.com/personalized-products/i-love-you-this-much-book"
+    },
+    {
+      "id": "wb-12",
+      "title": "That's My Cake!",
+      "slug": "thats-my-cake",
+      "category": "Family & Siblings",
+      "subcategory": "Sibling Sharing & Humor",
+      "target_age": "Ages 3–8",
+      "characters_supported": "2 to 4 Children",
+      "premise": "Hilarious, chaotic sibling rivalry story where brothers and sisters bicker over a delicious cake, eventually learning the joy of sharing.",
+      "page_count": 34,
+      "dimensions": "Landscape: 312 × 225 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "2 to 4 sibling names and avatars, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/thats-my-cake-book"
+    },
+    {
+      "id": "wb-13",
+      "title": "You're The Biggest",
+      "slug": "youre-the-biggest",
+      "category": "Family & Siblings",
+      "subcategory": "Becoming a Big Brother/Sister",
+      "target_age": "Ages 2–6",
+      "characters_supported": "2 Children (Big Sibling + New Baby)",
+      "premise": "Reassures the older child when a new baby arrives, showing them how important, capable, and loved they remain as the 'biggest'.",
+      "page_count": 32,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Big sibling name & avatar, baby name, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/youre-the-biggest-book"
+    },
+    {
+      "id": "wb-14",
+      "title": "You Are The Best Dad Ever",
+      "slug": "best-dad-ever",
+      "category": "Dad / Father's Day",
+      "subcategory": "Emotional Appreciation",
+      "target_age": "Adults / Dads",
+      "characters_supported": "Dad + 1 to 4 Children",
+      "premise": "The child selects 10 superhuman qualities describing why Dad is the absolute best (his bear hugs, his silly jokes, his bravery, his cooking).",
+      "page_count": 42,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Dad's name & avatar, 1-4 kids names & avatars, selection of 10 custom qualities, dedication",
+      "author_artist": "Wonderbly Creative Team",
+      "url": "https://www.wonderbly.com/personalized-products/best-dad-ever-book"
+    },
+    {
+      "id": "wb-15",
+      "title": "You Are The Best Mom Ever",
+      "slug": "best-mum-ever",
+      "category": "Mom / Mother's Day",
+      "subcategory": "Emotional Appreciation",
+      "target_age": "Adults / Moms",
+      "characters_supported": "Mom + 1 to 4 Children",
+      "premise": "Heartfelt tribute honoring Mom's daily heroism, infinite patience, and warm comfort, celebrating 10 qualities chosen by her kids.",
+      "page_count": 42,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Mom's name & avatar, 1-4 kids, 10 selected qualities, dedication",
+      "author_artist": "Wonderbly Creative Team",
+      "url": "https://www.wonderbly.com/personalized-products/best-mom-ever-book"
+    },
+    {
+      "id": "wb-16",
+      "title": "Oh, What Parents You’ll Be!",
+      "slug": "oh-what-parents-youll-be",
+      "category": "Mom / Mother's Day",
+      "subcategory": "Expecting Parents",
+      "target_age": "New / Expectant Parents",
+      "characters_supported": "Mom & Dad (Couple)",
+      "premise": "Humorous, heartwarming survival guide celebrating new parenthood. Explicitly badged 'Illustrated by award-winning creatives – without AI'.",
+      "page_count": 34,
+      "dimensions": "Landscape: 312 × 225 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Both parents' names and avatars, baby's expected arrival, dedication",
+      "author_artist": "David Cadji-Newby / Adam Ming",
+      "url": "https://www.wonderbly.com/personalized-products/oh-what-parents-youll-be-book"
+    },
+    {
+      "id": "wb-17",
+      "title": "Your Life in Newspaper Headlines",
+      "slug": "newspaper-birthday",
+      "category": "Milestone Adults",
+      "subcategory": "Milestone Birthday (30th, 50th, 70th)",
+      "target_age": "Adults (18–90)",
+      "characters_supported": "1 Adult",
+      "premise": "Luxury bound edition containing real, historical front pages from top national newspapers starting from the day the recipient was born to the present.",
+      "page_count": 110,
+      "dimensions": "Oversized Hardcover: 380 × 310 mm (15\" × 12\")",
+      "pricing": {
+        "hardcover_usd": 89.99,
+        "deluxe_leatherette_usd": 109.99,
+        "hardcover_aed_est": 330.0
+      },
+      "binding_options": [
+        "Cloth Hardcover with Gold Foil",
+        "Embossed Leatherette"
+      ],
+      "personalization_depth": "Recipient name embossed in gold foil on cover, birth date, newspaper choice, dedication page",
+      "author_artist": "Historical Archival Photography / Press",
+      "url": "https://www.wonderbly.com/personalized-products/newspaper-birthday-book"
+    },
+    {
+      "id": "wb-18",
+      "title": "The Book of Everyone",
+      "slug": "book-of-everyone",
+      "category": "Milestone Adults",
+      "subcategory": "Nostalgia & Infographics",
+      "target_age": "Adults",
+      "characters_supported": "1 Adult",
+      "premise": "Curated infographic celebration of an adult's life: number of heartbeats, songs #1 when born, events on their birthday, personal milestones.",
+      "page_count": 50,
+      "dimensions": "Landscape: 297 × 210 mm",
+      "pricing": {
+        "softcover_usd": 29.99,
+        "hardcover_usd": 44.99,
+        "hardcover_aed_est": 165.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Full name, birth date, uploaded photo, personal memories, dedication",
+      "author_artist": "Wonderbly Design Collective",
+      "url": "https://www.wonderbly.com/personalized-products/the-book-of-everyone"
+    },
+    {
+      "id": "wb-19",
+      "title": "The Christmas Wish",
+      "slug": "christmas-wish",
+      "category": "Seasonal / Christmas",
+      "subcategory": "Christmas Magic",
+      "target_age": "Ages 2–8",
+      "characters_supported": "1 to 4 Children",
+      "premise": "On Christmas Eve, the child embarks on an enchanting journey to the North Pole to help Santa fix the magical wish machine.",
+      "page_count": 34,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "1-4 child names and avatars, hometown location on Santa's map, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/christmas-wish-book"
+    },
+    {
+      "id": "wb-20",
+      "title": "The 12 Days of Christmas for [Name]",
+      "slug": "12-days-of-christmas",
+      "category": "Seasonal / Christmas",
+      "subcategory": "Holiday Carols",
+      "target_age": "Ages 0–6",
+      "characters_supported": "1 Child",
+      "premise": "Playful, festive adaptation of the classic 12 Days of Christmas carol, where the child is gifted funny and magical presents on every spread.",
+      "page_count": 32,
+      "dimensions": "Square: 230 × 230 mm",
+      "pricing": {
+        "softcover_usd": 24.99,
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child name, avatar, dedication",
+      "author_artist": "David Cadji-Newby / Studio",
+      "url": "https://www.wonderbly.com/personalized-products/12-days-of-christmas-book"
+    }
+  ],
+  "hooray_heroes_catalog": [
+    {
+      "id": "hh-01",
+      "title": "You'll Always Be My Little Boy / Girl (Dad Edition)",
+      "slug": "custom-book-for-dad",
+      "category": "Dad / Father's Day",
+      "subcategory": "Bittersweet Milestone",
+      "target_audience": "Dads from Child / Wife",
+      "characters_supported": "Dad + 1, 2, or 3 Kids",
+      "premise": "The global viral sensation. Dad imagines all the everyday moments of his child growing up, realizing that no matter how big they become, they will always be his little child.",
+      "page_count": 28,
+      "dimensions": "Landscape: 12\" × 8.5\" (305 × 216 mm)",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover (Pre-selected by default)"
+      ],
+      "personalization_depth": "Detailed avatar (20 hairstyles, 8 beards, glasses, skin tone), 10 chosen stories out of 30, free photo upload, dedication",
+      "viral_factor": "Core driver of the famous 'Crying Dads' campaign (millions of views on TikTok)",
+      "url": "https://hoorayheroes.com/personalized-book/custom-book-for-dad"
+    },
+    {
+      "id": "hh-02",
+      "title": "When [Name] Grows Up (Daddy Edition)",
+      "slug": "when-theo-grows-up-daddy-edition",
+      "category": "Dad / Father's Day",
+      "subcategory": "Career & Aspiration",
+      "target_audience": "Dads & Children (Ages 0–8)",
+      "characters_supported": "Dad + 1, 2, or 3 Kids",
+      "premise": "Dad imagines the exciting professions his child could grow up to be (astronaut, veterinarian, soccer player, chef, musician, president) while promising eternal support.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Dad avatar, child avatar, select 10 careers out of 25 options, drag-and-drop order, dedication",
+      "viral_factor": "Top Father's Day bestseller",
+      "url": "https://hoorayheroes.com/personalized-book/when-oliver-grows-up-daddy-edition"
+    },
+    {
+      "id": "hh-03",
+      "title": "10 Reasons Why I Love Daddy",
+      "slug": "10-reasons-i-love-daddy-book-from-daughter",
+      "category": "Dad / Father's Day",
+      "subcategory": "Everyday Appreciation",
+      "target_audience": "Dads from Daughter / Son",
+      "characters_supported": "Dad + 1 Child",
+      "premise": "A sweet, lighthearted list of 10 reasons why Dad is the best: fixing toys, giving piggyback rides, funny dancing, and bedtime cuddles.",
+      "page_count": 24,
+      "dimensions": "Square: 8.5\" × 8.5\" (216 × 216 mm)",
+      "pricing": {
+        "softcover_usd": 29.99,
+        "hardcover_usd": 34.99,
+        "hardcover_aed_est": 129.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Avatars, 10 selected reason stanzas, dedication",
+      "viral_factor": "Budget-friendly gifting entry point",
+      "url": "https://hoorayheroes.com/personalized-book/10-reasons-why-i-love-dad"
+    },
+    {
+      "id": "hh-04",
+      "title": "Dad, I Wrote a Book About You",
+      "slug": "dad-i-wrote-a-book-about-you",
+      "category": "Dad / Father's Day",
+      "subcategory": "Humor & Gratitude",
+      "target_audience": "Dads from Adult / Teenage Children",
+      "characters_supported": "Dad + 1 Adult Child",
+      "premise": "A funny and nostalgic review of Dad's most iconic habits, dad jokes, barbecue skills, and life wisdom from the perspective of an older child.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Adult child avatar, Dad avatar with grey beard options, dedication",
+      "viral_factor": "Father's Day gift for adult kids",
+      "url": "https://hoorayheroes.com/personalized-book/dad-i-wrote-a-book-about-you"
+    },
+    {
+      "id": "hh-05",
+      "title": "You'll Always Be My Little Boy / Girl (Mom Edition)",
+      "slug": "custom-book-for-mom",
+      "category": "Mom / Mother's Day",
+      "subcategory": "Maternal Love",
+      "target_audience": "Moms from Child / Husband",
+      "characters_supported": "Mom + 1, 2, or 3 Kids",
+      "premise": "The emotional counterpart to the Dad bestseller. Mom reminisces about first footsteps, nursery rhymes, and comfort hugs as her child grows.",
+      "page_count": 28,
+      "dimensions": "Landscape: 12\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Mom avatar, child avatar(s), 10 chosen stories, photo upload, dedication",
+      "viral_factor": "Mother's Day #1 bestseller",
+      "url": "https://hoorayheroes.com/personalized-book/custom-book-for-mom"
+    },
+    {
+      "id": "hh-06",
+      "title": "When [Name] Grows Up (Mommy Edition)",
+      "slug": "when-theo-grows-up-mommy-edition",
+      "category": "Mom / Mother's Day",
+      "subcategory": "Career & Aspiration",
+      "target_audience": "Moms & Children",
+      "characters_supported": "Mom + 1, 2, or 3 Kids",
+      "premise": "Mom dreams of her child's future triumphs, promising her steady hand and heart will guide them through every stage of life.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Mom avatar, child avatar, 10 selected career scenarios, dedication",
+      "viral_factor": "Mother's Day companion bestseller",
+      "url": "https://hoorayheroes.com/personalized-book/when-oliver-grows-up-mommy-edition"
+    },
+    {
+      "id": "hh-07",
+      "title": "10 Reasons Why I Love Mommy",
+      "slug": "10-reasons-i-love-mommy-book",
+      "category": "Mom / Mother's Day",
+      "subcategory": "Everyday Appreciation",
+      "target_audience": "Moms from Child",
+      "characters_supported": "Mom + 1 Child",
+      "premise": "A playful collection of 10 reasons Mom makes the world warmer, safer, and funnier every single day.",
+      "page_count": 24,
+      "dimensions": "Square: 8.5\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 29.99,
+        "hardcover_usd": 34.99,
+        "hardcover_aed_est": 129.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Mom avatar, child avatar, 10 chosen reasons, dedication",
+      "viral_factor": "High conversion for impulse gift buyers",
+      "url": "https://hoorayheroes.com/personalized-book/10-reasons-why-i-love-mom"
+    },
+    {
+      "id": "hh-08",
+      "title": "Baby's Guide for Mommy and Daddy",
+      "slug": "babys-guide-for-mommy-and-daddy",
+      "category": "Mom / Mother's Day",
+      "subcategory": "New Parents Humor",
+      "target_audience": "First-time Parents (Couples)",
+      "characters_supported": "Mom, Dad, and Newborn Baby",
+      "premise": "A hilarious survival manual written from the baby's point of view, instructing Mom and Dad on diaper etiquette, midnight feeding demands, and baby mood swings.",
+      "page_count": 32,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Mom avatar, Dad avatar, Baby avatar, dedication",
+      "viral_factor": "Top baby shower gift",
+      "url": "https://hoorayheroes.com/personalized-book/babys-guide-for-mommy-and-daddy"
+    },
+    {
+      "id": "hh-09",
+      "title": "Grandma's Little Heroes",
+      "slug": "personalized-book-for-grandma-and-grandkids",
+      "category": "Grandparents",
+      "subcategory": "Grandmother Love",
+      "target_audience": "Grandmothers from Grandchildren",
+      "characters_supported": "Grandma + 1 to 5 Grandchildren",
+      "premise": "Celebrates the special, sweet bond between Grandma and her grandchildren, baking treats, sharing secret stories, and unconditional pampering.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Grandma avatar with silver hair options, up to 5 custom grandkid avatars, dedication",
+      "viral_factor": "National Grandparents Day bestseller",
+      "url": "https://hoorayheroes.com/personalized-book/grandmas-little-heroes"
+    },
+    {
+      "id": "hh-10",
+      "title": "Grandpa's Little Heroes",
+      "slug": "personalized-book-for-grandpa-and-grandkids",
+      "category": "Grandparents",
+      "subcategory": "Grandfather Bond",
+      "target_audience": "Grandfathers from Grandchildren",
+      "characters_supported": "Grandpa + 1 to 5 Grandchildren",
+      "premise": "Grandpa shows his grandkids how to build birdhouses, fish at dawn, tell tall tales, and be curious adventurers.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Grandpa avatar with glasses & beard, up to 5 grandkid avatars, dedication",
+      "viral_factor": "Emotional Christmas gift for older dads/grandpas",
+      "url": "https://hoorayheroes.com/personalized-book/grandpas-little-heroes"
+    },
+    {
+      "id": "hh-11",
+      "title": "10 Reasons I Love You (Couples Edition)",
+      "slug": "10-reasons-i-love-you-book-for-him",
+      "category": "Couples & Romance",
+      "subcategory": "Valentine's & Anniversary",
+      "target_audience": "Boyfriends, Husbands, Wives, Partners",
+      "characters_supported": "Couple (Male/Female, Female/Female, Male/Male)",
+      "premise": "A romantic tribute celebrating the unique, intimate bond between partners through 10 personalized love moments.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Both adult avatars, selection of 10 romantic milestones, dedicated LGBTQ+ options, dedication",
+      "viral_factor": "Valentine's Day #1 driver",
+      "url": "https://hoorayheroes.com/personalized-book/10-reasons-i-love-you-couples"
+    },
+    {
+      "id": "hh-12",
+      "title": "15 Reasons I Love You / Perfect Imperfections",
+      "slug": "reasons-i-love-you-book-for-him",
+      "category": "Couples & Romance",
+      "subcategory": "Deluxe Romance",
+      "target_audience": "Couples & Spouses",
+      "characters_supported": "Couple (2 Adults)",
+      "premise": "Candid, charming celebration of genuine relationships: honoring both deep romantic chemistry and funny everyday quirks (bad driving, messy closets, movie debates).",
+      "page_count": 38,
+      "dimensions": "Deluxe Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "hardcover_usd": 69.99,
+        "hardcover_aed_est": 257.0
+      },
+      "binding_options": [
+        "Deluxe Silver-Foil Hardcover"
+      ],
+      "personalization_depth": "2 adult avatars, 15 selected relationship quirks, custom dedication",
+      "viral_factor": "Highest AOV product on Hooray Heroes ($69.99)",
+      "url": "https://hoorayheroes.com/personalized-book/perfect-imperfections"
+    },
+    {
+      "id": "hh-13",
+      "title": "The Dream Team (Sibling Adventure)",
+      "slug": "custom-dream-team-book-for-three-kids",
+      "category": "Kids & Siblings",
+      "subcategory": "Cooperative Adventure",
+      "target_audience": "Siblings, Twins, Cousins (Ages 2–10)",
+      "characters_supported": "2 to 5 Children",
+      "premise": "Brothers and sisters combine their talents to embark on an epic cooperative adventure through enchanted realms, discovering that family is the ultimate superpower.",
+      "page_count": 32,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "2 to 5 distinct child avatars, names, custom group dedication",
+      "viral_factor": "Solves gifting for families with multiple children",
+      "url": "https://hoorayheroes.com/personalized-book/dream-team-for-kids"
+    },
+    {
+      "id": "hh-14",
+      "title": "Hooray, [Name]! You Did It! (Potty Training)",
+      "slug": "hooray-chloe-you-did-it-potty",
+      "category": "Kids & Siblings",
+      "subcategory": "Mini Heroes Milestones",
+      "target_audience": "Toddlers (Ages 1.5–3.5)",
+      "characters_supported": "1 Toddler",
+      "premise": "Gentle, encouraging story empowering toddlers through the challenges and triumphant victory of ditching diapers for big-kid pants.",
+      "page_count": 24,
+      "dimensions": "Square: 8.5\" × 8.5\"",
+      "pricing": {
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Sturdy Toddler Hardcover with Tear-Resistant Pages"
+      ],
+      "personalization_depth": "Toddler avatar, diaper to potty milestone choices, dedication",
+      "viral_factor": "Practical parenting tool bought by mothers",
+      "url": "https://hoorayheroes.com/personalized-book/mini-heroes-potty-training"
+    },
+    {
+      "id": "hh-15",
+      "title": "Hooray, [Name]! Off to School We Go!",
+      "slug": "hooray-chloe-off-to-school",
+      "category": "Kids & Siblings",
+      "subcategory": "Mini Heroes Milestones",
+      "target_audience": "Preschoolers & Kindergarten (Ages 3–6)",
+      "characters_supported": "1 Child",
+      "premise": "Calms first-day-of-school anxiety by showcasing meeting teachers, making new friends, circle time, and the joy of coming home to share accomplishments.",
+      "page_count": 24,
+      "dimensions": "Square: 8.5\" × 8.5\"",
+      "pricing": {
+        "hardcover_usd": 39.99,
+        "hardcover_aed_est": 147.0
+      },
+      "binding_options": [
+        "Hardcover"
+      ],
+      "personalization_depth": "Child avatar, backpack color choice, school name, dedication",
+      "viral_factor": "Back-to-School seasonal surge product (August/September)",
+      "url": "https://hoorayheroes.com/personalized-book/mini-heroes-first-day-of-school"
+    },
+    {
+      "id": "hh-16",
+      "title": "Happy Birthday, [Name]!",
+      "slug": "personalized-happy-birthday-book",
+      "category": "Kids & Siblings",
+      "subcategory": "Birthdays (Ages 1 to 9)",
+      "target_audience": "Kids (Ages 1–9)",
+      "characters_supported": "1 Child",
+      "premise": "Magical woodland creatures prepare a grand surprise party tailored to the child's exact age, celebrating all their favorite things.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child avatar, age number displayed prominently across story and cake, dedication",
+      "viral_factor": "Year-round evergreen birthday gift",
+      "url": "https://hoorayheroes.com/personalized-book/happy-birthday-book"
+    },
+    {
+      "id": "hh-17",
+      "title": "The Pawsome Adventures of [Name] and [Dog/Cat]",
+      "slug": "the-pawsome-adventures-of-blake-and-milo",
+      "category": "Pets",
+      "subcategory": "Child & Pet Adventures",
+      "target_audience": "Kids with Dogs or Cats",
+      "characters_supported": "1 Child + 1 Dog or Cat",
+      "premise": "Child and their furry best friend zoom across outer space, dive into sunken pirate treasure, and save the day together.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Child avatar, pet builder (60+ dog breeds, 25+ cat breeds, ear shapes, coat patterns, collar colors), dedication",
+      "viral_factor": "Massive crossover appeal between pet lovers and parents",
+      "url": "https://hoorayheroes.com/personalized-book/pawsome-adventures-child-and-dog"
+    },
+    {
+      "id": "hh-18",
+      "title": "Forever the Goodest Pup (Dog Memorial Tribute)",
+      "slug": "dog-memorial-book",
+      "category": "Pets",
+      "subcategory": "Memorial & Grief",
+      "target_audience": "Pet Owners Mourning a Lost Dog",
+      "characters_supported": "1 Dog + Up to 2 Owners",
+      "premise": "A gentle, comforting tribute honoring a deceased pet's joyful memory across the Rainbow Bridge, celebrating everlasting loyalty and love.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Keepsake Hardcover"
+      ],
+      "personalization_depth": "Detailed dog builder, owner avatars, dedication with memorial dates",
+      "viral_factor": "Deep emotional resonance with pet-owner bereavement",
+      "url": "https://hoorayheroes.com/personalized-book/dog-memorial-book"
+    },
+    {
+      "id": "hh-19",
+      "title": "I Love You, [Dog's Name] (Dog Mom / Dog Dad Edition)",
+      "slug": "i-love-you-dog-book-for-adults",
+      "category": "Pets",
+      "subcategory": "Adult Pet Owners",
+      "target_audience": "Dog Moms and Dog Dads",
+      "characters_supported": "1 Adult + 1 or 2 Dogs",
+      "premise": "Celebrates the funny, chaotic, and unconditional bond between an adult and their dogs (muddy paws, stolen food, unconditional loyalty).",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "Adult avatar, 1 or 2 dog avatars, 10 selected funny pet quirks, dedication",
+      "viral_factor": "Huge hit with millennial and Gen Z pet parents",
+      "url": "https://hoorayheroes.com/personalized-book/i-love-you-dog-book"
+    },
+    {
+      "id": "hh-20",
+      "title": "Merry Christmas, Little Heroes!",
+      "slug": "personalized-christmas-book-for-kids",
+      "category": "Seasonal / Christmas",
+      "subcategory": "Holiday Magic",
+      "target_audience": "Kids & Siblings (1 to 3 Kids)",
+      "characters_supported": "1 to 3 Children",
+      "premise": "The children team up with Santa and his reindeer to save Christmas morning, discovering the greatest gift of all is each other.",
+      "page_count": 28,
+      "dimensions": "Landscape: 11\" × 8.5\"",
+      "pricing": {
+        "softcover_usd": 46.99,
+        "hardcover_usd": 49.99,
+        "hardcover_aed_est": 184.0
+      },
+      "binding_options": [
+        "Softcover",
+        "Hardcover"
+      ],
+      "personalization_depth": "1-3 child avatars, festive pajama choices, dedication",
+      "viral_factor": "Q4 holiday cash machine",
+      "url": "https://hoorayheroes.com/personalized-book/christmas-book-for-kids"
+    }
+  ]
+}

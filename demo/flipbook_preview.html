@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive 3D Book Preview - Personalized AI Storybooks</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --accent: #f59e0b;
+      --bg: #0b132b;
+      --card-bg: #1c2541;
+      --paper: #fdfbf7;
+      --ink: #1f2937;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: radial-gradient(circle at 50% 20%, #1c2541 0%, #0b132b 100%);
+      color: #f8fafc;
+      font-family: 'Outfit', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      max-width: 800px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(245, 158, 11, 0.15);
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p.subtitle {
+      color: #94a3b8;
+      font-size: 16px;
+    }
+    .book-stage {
+      perspective: 2000px;
+      margin: 20px 0;
+      width: 100%;
+      max-width: 960px;
+      display: flex;
+      justify-content: center;
+    }
+    .book-spread {
+      display: flex;
+      width: 100%;
+      max-width: 900px;
+      height: 520px;
+      background: var(--paper);
+      border-radius: 12px;
+      box-shadow: 0 25px 60px -15px rgba(0,0,0,0.7), 0 0 35px rgba(245, 158, 11, 0.15);
+      position: relative;
+      overflow: hidden;
+      border: 4px solid #334155;
+      transition: all 0.4s ease;
+    }
+    .spine-crease {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 16px;
+      height: 100%;
+      background: linear-gradient(to right, rgba(0,0,0,0.18), rgba(0,0,0,0.02) 40%, rgba(0,0,0,0.18));
+      transform: translateX(-50%);
+      z-index: 10;
+      pointer-events: none;
+    }
+    .left-page, .right-page {
+      flex: 1;
+      height: 100%;
+      padding: 36px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .left-page {
+      border-right: 1px solid rgba(0,0,0,0.06);
+      color: var(--ink);
+    }
+    .right-page {
+      padding: 0;
+      overflow: hidden;
+      background: #0f172a;
+    }
+    .right-page img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .page-tag {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #64748b;
+      font-weight: 700;
+    }
+    .story-en {
+      font-family: 'Playfair Display', serif;
+      font-size: 19px;
+      line-height: 1.6;
+      color: #0f172a;
+      margin-top: 18px;
+    }
+    .story-ar {
+      font-family: 'Amiri', serif;
+      font-size: 24px;
+      line-height: 1.9;
+      direction: rtl;
+      text-align: right;
+      color: #1e3a8a;
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 2px dashed #e2e8f0;
+    }
+    .page-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+    .controls {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .btn {
+      background: #3b82f6;
+      color: #ffffff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .btn:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+    }
+    .btn-secondary {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+    }
+    .btn-secondary:hover {
+      background: #334155;
+      color: #ffffff;
+    }
+    .audio-player-mock {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      padding: 12px 20px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
+      margin-top: 16px;
+    }
+    .waveform {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      height: 18px;
+    }
+    .bar {
+      width: 3px;
+      background: #f59e0b;
+      border-radius: 99px;
+      animation: wave 1.2s ease-in-out infinite alternate;
+    }
+    .bar:nth-child(2) { animation-delay: 0.2s; height: 16px; }
+    .bar:nth-child(3) { animation-delay: 0.4s; height: 12px; }
+    .bar:nth-child(4) { animation-delay: 0.1s; height: 18px; }
+    .bar:nth-child(5) { animation-delay: 0.5s; height: 8px; }
+    @keyframes wave {
+      from { height: 4px; }
+      to { height: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="badge">Live Prototype • Story Engine & Bilingual Layout</div>
+    <h1>Personalized Children's Storybook Preview</h1>
+    <p class="subtitle">Experience how Zayed's personalized Abu Dhabi adventure book renders in English & Arabic with full Tashkeel.</p>
+  </header>
+
+  <div class="book-stage">
+    <div class="book-spread">
+      <div class="spine-crease"></div>
+      
+      <!-- Left Page: Story Verses -->
+      <div class="left-page">
+        <div>
+          <div class="page-tag" id="pageTag">Spread 1 of 4 • Abu Dhabi Desert Dunes</div>
+          
+          <div class="story-en" id="storyEn">
+            "Across the golden dunes where warm winds blow,<br>
+            Young Zayed watched the desert sunset glow.<br>
+            Beneath the sand, a golden compass gleamed,<br>
+            More magical than anything he'd dreamed!"
+          </div>
+
+          <div class="story-ar" id="storyAr">
+            فَوْقَ كُثْبَانِ الرِّمَالِ الذَّهَبِيَّةِ حَيْثُ تَهَبُّ النَّسَمَاتُ،<br>
+            وَقَفَ زَايِدُ الصَّغِيرُ يَرْقُبُ غُرُوبَ الشَّمْسِ البَاسِمَاتِ.<br>
+            وَتَحْتَ الرَّمْلِ، لَمَعَتْ بَوْصَلَةٌ مِنْ ذَهَبٍ صَافٍ وَنَقِيّ،<br>
+            تَفُوقُ فِي سِحْرِهَا كُلَّ حُلْمٍ جَمِيلٍ وَبَهِيّ!
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span id="leftPageNum">Page 2</span>
+          <span>Zayed and the Secret of the Starlit Dunes</span>
+        </div>
+      </div>
+
+      <!-- Right Page: Full-Bleed Artwork -->
+      <div class="right-page">
+        <img id="pageImg" src="../research/competitor_assets/interior_spread_mockup.jpg" alt="Children's Storybook Illustration">
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Controls -->
+  <div class="controls">
+    <button class="btn btn-secondary" onclick="prevPage()">← Previous Spread</button>
+    <span id="spreadIndicator" style="font-weight: 600; color: #94a3b8;">Spread 1 / 4</span>
+    <button class="btn" onclick="nextPage()">Next Spread →</button>
+  </div>
+
+  <!-- AI Bedtime Narration Bar -->
+  <div class="audio-player-mock">
+    <span style="color: #fbbf24;">▶ Bedtime Audio Story</span>
+    <div class="waveform">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <span style="color: #94a3b8;">"Narrated by Sarah with Desert Lullaby Melody" (02:45)</span>
+  </div>
+
+  <script>
+    const pages = [
+      {
+        tag: "Spread 1 of 4 • Abu Dhabi Desert Dunes",
+        en: '"Across the golden dunes where warm winds blow,<br>Young Zayed watched the desert sunset glow.<br>Beneath the sand, a golden compass gleamed,<br>More magical than anything he\'d dreamed!"',
+        ar: 'فَوْقَ كُثْبَانِ الرِّمَالِ الذَّهَبِيَّةِ حَيْثُ تَهَبُّ النَّسَمَاتُ،<br>وَقَفَ زَايِدُ الصَّغِيرُ يَرْقُبُ غُرُوبَ الشَّمْسِ البَاسِمَاتِ.<br>وَتَحْتَ الرَّمْلِ، لَمَعَتْ بَوْصَلَةٌ مِنْ ذَهَبٍ صَافٍ وَنَقِيّ،<br>تَفُوقُ فِي سِحْرِهَا كُلَّ حُلْمٍ جَمِيلٍ وَبَهِيّ!',
+        img: '../research/competitor_assets/interior_spread_mockup.jpg',
+        pageNum: 'Page 2'
+      },
+      {
+        tag: "Spread 2 of 4 • The Desert Falcon in Need",
+        en: '"The compass hummed and pointed to a stone,<br>Where sat a tiny falcon, all alone.<br>Its golden wing was caught in desert vine,<br>Zayed gently smiled and said: \'Your wing is fine!\'"',
+        ar: 'هَمَسَتِ البَوْصَلَةُ وَأَشَارَتْ إِلَى صَخْرَةٍ فِي المَدَى،<br>حَيْثُ جَلَسَ صَقْرٌ صَغِيرٌ يَبْحَثُ عَنِ الهُدَى.<br>كَانَ جَنَاحُهُ الذَّهَبِيُّ عَالِقًا بَيْنَ أَغْصَانِ النَّبَاتِ،<br>فَابْتَسَمَ زَايِدُ قَائِلًا: \'لَا تَخَفْ، فَأَنَا عَوْنُكَ فِي الحَيَاةِ!\'',
+        img: '../research/competitor_assets/interior_spread_mockup.jpg',
+        pageNum: 'Page 4'
+      },
+      {
+        tag: "Spread 3 of 4 • Soaring Over Grand Mosque",
+        en: '"With wings now free, the falcon leaped so high,<br>Inviting Zayed to watch the starry sky.<br>Above the glowing oasis they took flight,<br>Where shining domes lit up the peaceful night!"',
+        ar: 'فَرَدَ الصَّقْرُ جَنَاحَيْهِ وَحَلَّقَ فِي الفَضَاءِ البَعِيدِ،<br>يَدْعُو زَايِدَ لِرُؤْيَةِ سِحْرِ السَّمَاءِ وَالقَمَرِ الفَرِيدِ.<br>فَوْقَ وَاحَةِ النَّخِيلِ الخَضْرَاءِ كَانَ المَنْظَرُ يَسُرُّ النَّاظِرِينَ،<br>وَقِبَابُ المَسْجِدِ الكَبِيرِ تُضِيءُ نُورًا لِلْعَالَمِينَ!',
+        img: '../research/competitor_assets/interior_spread_mockup.jpg',
+        pageNum: 'Page 6'
+      },
+      {
+        tag: "Spread 4 of 4 • Peaceful Bedtime Slumber",
+        en: '"Back in his cozy bed of linen white,<br>Zayed whispered: \'Thank you for this wondrous night.\'<br>For kindness is the compass of the heart,<br>Where all the greatest grand adventures start!"',
+        ar: 'عَادَ زَايِدُ إِلَى سَرِيرِهِ الدَّافِئِ المَلِيءِ بِالأَحْلَامِ،<br>هَمَسَ شَاكِرًا: \'مَا أَجْمَلَ هَذِهِ اللَّيْلَةَ فِي سَلَامٍ!\'<br>فَالطِّيبَةُ هِيَ بَوْصَلَةُ القَلْبِ الَّتِي لَا تَضِلُّ الطَّرِيقَ،<br>وَمِنْهَا تَبْدَأُ أَجْمَلُ الرِّحْلَاتِ لِكُلِّ صَدِيقٍ!',
+        img: '../research/competitor_assets/cover_and_gift_box_mockup.jpg',
+        pageNum: 'Page 8'
+      }
+    ];
+
+    let current = 0;
+    function render() {
+      const p = pages[current];
+      document.getElementById('pageTag').innerText = p.tag;
+      document.getElementById('storyEn').innerHTML = p.en;
+      document.getElementById('storyAr').innerHTML = p.ar;
+      document.getElementById('pageImg').src = p.img;
+      document.getElementById('leftPageNum').innerText = p.pageNum;
+      document.getElementById('spreadIndicator').innerText = `Spread ${current + 1} / 4`;
+    }
+
+    function nextPage() {
+      if (current < pages.length - 1) {
+        current++;
+        render();
+      }
+    }
+
+    function prevPage() {
+      if (current > 0) {
+        current--;
+        render();
+      }
+    }
+  </script>
+</body>
+</html>
